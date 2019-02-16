@@ -9,6 +9,8 @@ endif
 if ! has('gui_running')
     let g:solarized_termcolors=256
     set t_Co=256
+    set t_BE=
+    set t_BD=
 endif
 
 syntax enable
